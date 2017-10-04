@@ -22,5 +22,9 @@ let statement = "I like the color blue"
 let sameStatement = "I like the color blue"
 if statement == sameStatement {
         print("These two strings are considered equal")
+    
+// UIView
+    let rect = CGRect (x: 10, y: 10, width: 100, height: 100)
+    let myview = UIView(frame: rect)
 }
 
